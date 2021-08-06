@@ -1,0 +1,5 @@
+How does the internet work? What happens when you click on a link?
+
+The internet works by having a client and server send a series of requests and responses to different domains to send and recieve various sets of instructions that your computer reads and uses to display the webpage.
+
+When a link is clicked, the client will use a nearby DNS to query the IP address of an associated URL. After successfully obtaining the IP address, a request of some sort (usually get) will be sent, asking the host to send information over. After the client recieves a response with the appropriate data, their computer will read and begin displaying various elements, in the order of HTML, then CSS, then JS.
